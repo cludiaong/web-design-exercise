@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/path">
+       <fieldset>
+            <legend>Formulir calon pegawai</legend>
+                <label for="name">Nama : </label>
+                <input type="text" name="name"><br> <br>
+                <label for="address">Alamat : </label>
+                <input type="text" name ="address"><br> <br>
+                <label for="password">Password : </label>
+                <input type="text" name="password"><br> <br>
+
+                <label for="jeniskelamin">Jenis Kelamin : </label>
+                <label><input type ="checkbox" name="jeniskelamin" value ="perempuan"/>Perempuan</label>
+                <label><input type ="checkbox" name="jeniskelamin" value="lakilaki"/>Laki-laki</label> <br> <br>
+
+                <label for="bahasaprogram">Bahasa pemograman yang dikuasai : </label>
+                <label><input type ="checkbox" name ="bahasaprogram" value="web"/>Web</label>
+                <label><input type="checkbox" name ="bahasaprogram" value="mobile"/>MOBILE</label>
+                <label><input type="checkbox" name="bahasaprogram" value="desktop"/>DESKTOP</label> <br> <br>
+
+                <label for="kota">Kota asal : </label>
+
+                <select>
+                    <option value ="semarang">Semarang</option>
+                    <option value ="jakarta">Jakarta</option>
+                    <option value ="bandung">Bandung</option>
+                    <option value ="medan">Medan</option>
+                    <option value ="manado">Manado</option>
+                </select>
+                <br> <br>
+
+                <label for="pilih">Apa yang Membuat Kami harus memilih anda?</label><br>
+
+                <textarea rows="4" cols="50" placeholder="Tulis jawaban anda disini"></textarea><br>
+                <button>Proses</button>
+
+       </fieldset>
+      </form>
+</body>
+</html>
